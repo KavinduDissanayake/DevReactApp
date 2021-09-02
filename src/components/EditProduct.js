@@ -25,9 +25,9 @@ export const EditProduct = () => {
     }
 
 
-    useEffect(()=>{
-        getProductsById();
-    },[])
+    // useEffect(()=>{
+    //     getProductsById();
+    // },[])
 
     const getProductsById = async () =>{
 
